@@ -8,4 +8,13 @@ Uses Config.Net.
 See https://github.com/MicaelMor/ApplicationSettingsFSharp for more information.</Description>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="Helper.fs" />
+    <Compile Include="Configuration.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Config.Net.Json" Version="4.15.0" />
+  </ItemGroup>
+
 </Project>
