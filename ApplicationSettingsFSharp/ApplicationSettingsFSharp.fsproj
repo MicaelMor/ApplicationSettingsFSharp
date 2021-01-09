@@ -2,6 +2,10 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>MicaelMor</Authors>
+    <Description>Provides some basic functions to read and write application files in json.
+Uses Config.Net.
+See https://github.com/MicaelMor/ApplicationSettingsFSharp for more information.</Description>
   </PropertyGroup>
 
 </Project>
