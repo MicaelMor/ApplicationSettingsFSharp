@@ -6,6 +6,7 @@
     <Description>Provides some basic functions to read and write application files in json.
 Uses Config.Net.
 See https://github.com/MicaelMor/ApplicationSettingsFSharp for more information.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
   <ItemGroup>
@@ -14,6 +15,7 @@ See https://github.com/MicaelMor/ApplicationSettingsFSharp for more information.
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Config.Net" Version="4.15.0" />
     <PackageReference Include="Config.Net.Json" Version="4.15.0" />
   </ItemGroup>
 
